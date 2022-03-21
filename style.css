@@ -1,0 +1,518 @@
+*{
+    box-sizing: border-box;
+}
+.spoo{
+    position: relative;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Header*/
+}
+header{
+    width: 100%;
+    height: 80px;
+    padding: 25px;
+    background-color: black;
+    position: relative;
+    top: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header a {
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 15px;
+    font-family: 'Circular','spotify-circular',Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+.spotifylogo{
+    width: 129px;
+    height: 37px;
+    margin-left: 170px;
+    position: absolute;
+
+}
+.container p {
+    position: absolute;
+    top: 217px;
+    left: 601px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.container button {
+    position: absolute;
+    top: 14%;
+    right: 50%;
+    width: 163px;
+    height: 49px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.notes {
+    position: absolute;
+    top: 559px;
+    left: 722px;
+    height: 50px;
+    width: 154px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.image-class{
+    width: 100px;
+    height: 100px;
+}
+.navigation{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+.navy{
+    font-weight: 700;
+}
+/*Banner starting*/
+
+.banner-container .container{    
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+align-items: center;
+}
+
+.whatsnew{
+    width: 200px;
+    height: 100px;
+    color: black;
+    justify-content: center;
+    margin-left: 600px;
+}
+.writing {
+        height: 50px;
+        width: 670px;
+        font-size: 43px;
+        font-weight: 600;
+        font-style: 'spotify-circular', Helvetica, Arial, sans-serif;
+      
+        
+        line-height: 1.5;
+}
+.sub-secondtwo {
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: 142px;
+    background-color: red;
+    /* position: absolute; */
+    /* right: 13%; */
+    /* display: flex; */
+    
+}
+.fourpics{
+    display: flex;
+    justify-content:space-evenly;
+    width: 74%;
+    height: 140px;
+    
+}
+.images4 {
+    display: flex;
+    justify-content: space-around;
+    height: 378px;
+}
+.itsfree{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.itsfree h1 {
+    color: #fff;
+    position: absolute;
+    left: 43%;
+    top: 37%;
+    font-size: 50px;
+}
+.itsfree h2 {
+    color: #fff;
+    position: absolute;
+    left: 31%;
+    top:44%;
+    font-size: 50px;
+}
+.gotquestions{
+    height: 585px;
+    width: 100%;
+    position: relative;
+}
+.questions {
+    width: 22%;
+    top: 4%;
+    font-family: system-ui;
+    position: absolute;
+    left: 41%;
+    font-size: 19px;
+    font-weight: 500;
+}
+.question1 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 80px;
+    position: absolute;
+    left: 12%;
+    top: 27%;
+}
+.question1 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: system-ui;
+    width: 325px;
+    position: absolute;
+    top: 9%;
+}
+.question2 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 80px;
+    position: absolute;
+    left: 12%;
+    top: 41%;
+}
+.question2 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: system-ui;
+    width: 443px;
+    position: absolute;
+    top: 9%;
+}
+.question3 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 80px;
+    position: absolute;
+    left: 12%;
+    top: 55%;
+}
+
+.question3 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: system-ui;
+    width: 492px;
+    position: absolute;
+    top: 9%;
+}
+.question4 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 80px;
+    position: absolute;
+    left: 12%;
+    top: 69%;
+}
+.question4 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: system-ui;
+    width: 443px;
+    position: absolute;
+    top: 9%;
+}
+.firstv {
+    background-color: rgb(255, 255, 255);
+    width: 8%;
+    height: 80px;
+    position: absolute;
+    left: 77%;
+    top: 27%;
+}
+.firstv i {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 34%;
+    top: 26%;
+    font-size: 25px;
+}
+.secondv {
+    background-color: rgb(255, 255, 255);
+    width: 8%;
+    height: 80px;
+    position: absolute;
+    left: 77%;
+    top: 41%;
+}
+.secondv i {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 34%;
+    top: 26%;
+    font-size: 25px;
+}
+.thirdv {
+    background-color: rgb(255, 255, 255);
+    width: 8%;
+    height: 80px;
+    position: absolute;
+    left: 77%;
+    top: 55%;
+}
+.thirdv i {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 34%;
+    top: 26%;
+    font-size: 25px;
+}
+.forthv {
+    background-color: rgb(255, 251, 251);
+    width: 8%;
+    height: 80px;
+    position: absolute;
+    left: 77%;
+    top: 69%;
+}
+.forthv i {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 34%;
+    top: 26%;
+    font-size: 25px;
+}
+.ready{
+    position: relative;
+    width: 100%;
+    height: 450px;
+     background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));;
+}
+.ready h1 {
+    position: absolute;
+    left: 32%;
+    top: 24%;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 0;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+}
+.ready button{
+    height: 49px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    left: 44%;
+    top: 58%;
+
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.infos {
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width: 1170px;
+    position: absolute;
+    top: 9%;
+    left: 11%;
+}
+.info-one {
+    width: 96px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 83%;
+    display: flex;
+    border-radius: 8%
+}
+.info-two {
+    width: 195px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 66%;
+}
+.info-three {
+    width: 195px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 49%;
+}
+.info-four{
+    width: 195px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 32%;
+}
+.info-five{
+    width: 195px;
+    height: 350px;
+    position: absolute;
+    left: 15%;
+    background-color: rgb(0, 0, 0);
+} 
+
+.info-six{
+    width: 195px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+
+}
+.logos {
+    width: 129px;
+    right: 88.5%;
+    top: 1%;
+    height: 38px;
+    margin-left: 170px;
+    position: absolute;
+}
+
+
+.info-five h1 {
+    color:  #919496;
+    font-size: 13px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.info-four h1 {
+    color:  #919496;
+    font-size: 13px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.info-three h1 {
+    color:  #919496;
+    font-size: 13px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.info-five ul {
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    top: 11%;
+    right: 23%;
+    width: 93%;
+    line-height: 240%;
+    font-family: 'spotify'-'circular',Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+   
+}
+.info-four ul {
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    top: 11%;
+    right: 23%;
+    width: 93%;
+    line-height: 240%;
+    font-family: 'spotify'-'circular',Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+   
+}
+.info-three ul {
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    top: 11%;
+    right: 23%;
+    width: 93%;
+    line-height: 240%;
+    font-family: 'spotify'-'circular',Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+   
+}
+
+  
+
+.instalogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    position: absolute;
+
+}
+.twitterlogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    position: absolute;
+    left: 34%;
+}
+.facebooklogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    position: absolute;
+    left: 68%;
+}
+.allthree {
+    width: 174px;
+    height: 64px;
+}
+.revs {
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.revs a {
+    text-decoration: none;
+    color: #919496;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.indiaeng {
+    width: 104px;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 79%;
+    left: 79%;
+}
+.indiaeng a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #919496;
+}
+.spotifyab {
+    width: 104px;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 83%;
+    left: 79%;
+}
+.spotifyab a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #919496;
+}
+
